@@ -1,16 +1,35 @@
 body {
-    margin: 0;
+    background: #1C1C1C;
+    display: flex;
+    width: 1253px;
+    height: 678px;
+    padding-top: 64px 47px 64px 62px;
+    justify-content: center;
+    align-items: center;
+
+  
+
 }
 
+.container {
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    flex-shrink: 0;
+}
 
-/*Heading*/
+    /*Heading*/
 h1 {
     font-family: Karla;
     font-size: 40px;
     font-style: normal;
     font-weight: 800;
-    line-height: 40px; /* 100% */
+    line-height: 20px; /* 100% */
     letter-spacing: -1px;
+    width: 354px;
+    height: 10px;
+
+   
    }
    
    .generate-a-text {
@@ -20,3 +39,38 @@ h1 {
    .random-password-text {
        color: #4ADF86;
    }
+
+   .support-text {
+     color: var(--medium-grey, #D5D4D8);
+     font-family: Inter;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28px;
+   }
+
+   button {
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px; 
+    display: inline-flex;
+    padding: 9px 17px 9px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 6px;
+    background: #10B981;
+    /* shadow/sm */
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+   }
+
+   #line {
+    background: #2F3E53;
+    width: 446px;
+    height: 1px;
+   
+   }
+
