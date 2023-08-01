@@ -16,6 +16,9 @@ body {
     width: 550px;
     height: 550px;
     flex-shrink: 0;
+    margin-left: 160px;
+    margin-top: 80px;
+    
 }
 
     /*Heading*/
@@ -81,6 +84,13 @@ h1 {
 
   
 }
+    /*pasword field*/
+    .password-field {
+        display: inline-block;
+        margin-right: 20px;
+     }
+    
+
 
     .psw {
       width: 211px;
@@ -115,7 +125,4 @@ h1 {
    
  }
 
- .password-field {
-    display: inline-block;
-    margin-right: 20px;
- }
+ 
