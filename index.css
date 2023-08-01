@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+
+
+/*Heading*/
+h1 {
+    font-family: Karla;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 40px; /* 100% */
+    letter-spacing: -1px;
+   }
+   
+   .generate-a-text {
+       color: var(--white, #FFF);
+   }
+   
+   .random-password-text {
+       color: #4ADF86;
+   }
