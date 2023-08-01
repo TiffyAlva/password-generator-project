@@ -33,54 +33,89 @@ h1 {
    }
    
    .generate-a-text {
-       color: var(--white, #FFF);
-       margin-top: 100px;
-       margin-left: 50px;
+      color: var(--white, #FFF);
+      margin-top: 100px;
+      margin-left: 50px;
    }
    
    .random-password-text {
-       color: #4ADF86;
-       margin-left: 50px;
+      color: #4ADF86;
+      margin-left: 50px;
    }
 
    .support-text {
-     color: var(--medium-grey, #D5D4D8);
-     font-family: Inter;
-     font-size: 20px;
-     font-style: normal;
-     font-weight: 400;
-     line-height: 28px;
-     margin-left: 50px;
+      color: var(--medium-grey, #D5D4D8);
+      font-family: Inter;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+      margin-left: 50px;
    }
 
    #generate-button {
-    color: var(--white, #FFF);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px; 
-    display: inline-flex;
-    padding: 9px 17px 9px 15px;
-    justify-content: center;
-    align-items: center;
-    gap: 12px;
-    border-radius: 6px;
-    background: #10B981;
-    /* shadow/sm */
-    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
-    margin-top: 15px;
+      color: var(--white, #FFF);
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 24px; 
+      display: inline-flex;
+      padding: 9px 17px 9px 15px;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      border-radius: 6px;
+      background: #10B981;
+      /* shadow/sm */
+      box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+      margin-top: 15px;
    }
 
    #line {
-    background: #2F3E53;
-    width: 446px;
-    height: 1px;
-    margin-top: 32px;
-    margin-bottom: 35px;
+      background: #2F3E53;
+      width: 446px;
+      height: 1px;
+      margin-top: 32px;
+      margin-bottom: 35px;
 
   
 }
-   
-   
 
+    .psw {
+      width: 211px;
+      height: 39px;
+      flex-shrink: 0;
+      border-radius: 6px;
+      background: #273549;
+      color: #55F991; 
+      text-align: center;
+      font-family: Inter;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 32px; 
+    
+
+ }
+
+     .psw {
+       width: 211px;
+       height: 39px;
+       flex-shrink: 0;
+       border-radius: 6px;
+       background: #273549;
+       color: #55F991; 
+       text-align: center;
+       font-family: Inter;
+       font-size: 16px;
+       font-style: normal;
+       font-weight: 500;
+       line-height: 32px; 
+   
+ }
+
+ .password-field {
+    display: inline-block;
+    margin-right: 20px;
+ }
