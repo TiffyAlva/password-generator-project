@@ -2,5 +2,26 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
+let generateBtn = document.getElementById("generate-button")
+let fieldOne = document.getElementById("field1")
+let fieldTwo = document.getElementById("field2")
+
+function getRandomCharacter() {
+    let randomNumber = Math.floor(Math.random() * characters.length)
+    return characters[randomNumber]
+}
+
+function generatePassword() {
+    let randomPassword = ""
+    for (let i = 0; i < 15; i++) {
+        randomPassword += getRandomCharacter()
+    }
+    return randomPassword
+}
+
+generateBtn.addEventListener("click",()=>{
+        fieldOne.textContent = generatePassword()
+        fieldTwo.textContent = generatePassword()
+})
 
 
