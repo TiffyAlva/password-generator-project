@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
     <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
@@ -14,9 +15,11 @@
             <div id="line"></div>
             <div class="password-field">
                 <div class="psw" id="field1"> </div>
+                <button class="copy-button" onclick="copyToClipboard('field1')">Copy</button>
             </div>
             <div class="password-field">
                <div class="psw" id="field2"></div>
+               <button class="copy-button" onclick="copyToClipboard('field2')">Copy</button>
            </div>    
         <script src="./index.js"></script>
     </body>
