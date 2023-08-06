@@ -2,6 +2,8 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 "/"];
 
 
+
+
 let generateBtn = document.getElementById("generate-button")
 let fieldOne = document.getElementById("field1")
 let fieldTwo = document.getElementById("field2")
@@ -23,5 +25,6 @@ generateBtn.addEventListener("click",()=>{
         fieldOne.textContent = generatePassword()
         fieldTwo.textContent = generatePassword()
 })
+
 
 
