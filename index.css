@@ -3,21 +3,20 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Use viewport height to make sure it covers the entire screen */
-  margin: 0; /* Remove default margin to ensure the container is centered properly */
+  height: 100vh;
+  margin: 0;
 }
 
 .container {
   background: #1F2937;
-  width: 80%; /* Use a percentage for responsiveness */
-  max-width: 550px; /* Set a maximum width for larger screens */
+  width: 80%;
+  max-width: 550px;
   height: 550px;
   flex-shrink: 0;
   margin-top: 80px;
   position: relative;
 }
 
-/* Heading */
 h1 {
   font-family: 'Karla', sans-serif;
   font-size: 40px;
@@ -88,7 +87,6 @@ h1 {
   margin-bottom: 35px;
 }
 
-/* Password field */
 .password-field {
   display: inline-block;
   margin-right: 20px;
@@ -127,8 +125,23 @@ h1 {
   box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
-@media (min-width: 1400px) {}
-@media (min-width: 1200px) {}
-@media (min-width: 576px) {}
-@media (min-width: 768px) {}
-@media (min-width: 992px) {}
+@media (min-width: 1400px) {
+  /* Styles for screens wider than 1400px */
+}
+
+@media (min-width: 1200px) {
+  /* Styles for screens wider than 1200px */
+}
+
+@media (min-width: 992px) {
+  /* Styles for screens wider than 992px (e.g., tablets) */
+}
+
+@media (min-width: 768px) {
+  /* Styles for screens wider than 768px (e.g., landscape tablets) */
+}
+
+@media (min-width: 576px) {
+  /* Styles for screens wider than 576px (e.g., small tablets and phones) */
+}
+
