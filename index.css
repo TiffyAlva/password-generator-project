@@ -143,4 +143,7 @@ h1 {
 
 @media (min-width: 576px) {
   /* Styles for screens wider than 576px (e.g., small tablets and phones) */
+  .container {
+    margin: 80px auto;
+}
 }
