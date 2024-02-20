@@ -72,10 +72,12 @@ h1 {
   transition: background-color 0.3s ease;
   margin-top: 15px;
   cursor: pointer;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
 #generate-button:hover {
   background-color: #0F9960;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 #line {
@@ -117,10 +119,12 @@ h1 {
   border: 2px solid #10B981;
   border-radius: 8px;
   transition: background-color 0.3s ease;
+  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1);
 }
 
 .copy-button:hover {
   background-color: #0F9960;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
 }
 
 @media (min-width: 1400px) {}
