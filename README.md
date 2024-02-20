@@ -1,6 +1,6 @@
 ## Password Generator
 
-<strong>Netlify Link:<a href ="https://passwords-generator-2825.netlify.app/"> Click </strong>
+<strong>Netlify Link:<a href ="https://password-generator-2038.netlify.app/"> Click </strong>
 
 
 
